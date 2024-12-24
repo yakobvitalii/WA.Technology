@@ -19,7 +19,10 @@
 <h3 id="ps">Run using ps</h3>
  
 1. Run using local browser
-* Run `npx playwright test`
+* Checkout project from git
+* Go to the checkout folder using cd ${PROJECT_DIR}
+* Install npm dependencies using command npm install
+* Start atest using command `npx playwright test`
 
 In playwright.config.ts you can change a headless mode, also change how many retries need, and how many test run in paralell
 Now I'm running tests just on Chromium, If you want to check in another browsers, just uncomment code in playwright.config.ts
